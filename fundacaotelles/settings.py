@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os 
+# inspo video para set up os templates de login auth https://www.youtube.com/watch?v=Q4Q3S7HLp4w
+# inspo video login google https://www.youtube.com/watch?v=NG48CLLsb1A, https://www.youtube.com/watch?v=qdOX-6Zhugs
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,8 +29,6 @@ SECRET_KEY = 'django-insecure-k8fiv)hdeq-v52lkl!%-kb&yw29%b*7+ler208ycxmyo($b29z
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
